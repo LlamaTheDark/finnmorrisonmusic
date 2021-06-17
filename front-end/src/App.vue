@@ -45,5 +45,10 @@
   color: #42b983;
 }
 
+@media only screen and (max-width: 375px){
+    #app {
+        background-position: right;
+    }
+}
 
 </style>
