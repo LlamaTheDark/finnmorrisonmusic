@@ -70,35 +70,54 @@ export default {
 
 <style scoped>
 
+* {
+    /* border: 1px dotted red; */
+}
+* {
+    color: white;
+}
+
 #root {
-    width: 360px;
+    width: 355px;
     margin: 0 auto;
+    background-color: rgba(255, 166, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .name {
-    width: 350px;
+    width: 345px;
     margin: 0 auto;
-    background: rgba(131, 131, 255, 0.2);
+    background: rgba(131, 255, 135, 0.5);
     border-radius: 10px;
 }
 .link {
     text-decoration: none;
     padding: 10px 0;
+    margin: 0;
     background-color: lightgray;
     display: block;
     margin: 4px auto;
-    width: 350px;
+    width: 345px;
+    color: white;
 
-    color: black;
+    background-color: rgba(50, 186, 77, 0.8);
+    border-radius: 3px;
+
+}
+.link:hover {
+    background-color: rgb(55, 184, 81);
+    color: white;
+    
 }
 .date {
     text-align: left;
-    width: 330px;
+    width: 325px;
     margin: 0 auto;
 }
 .address {
     text-align: left;
-    width: 330px;
+    width: 325px;
     margin: 0 auto;
 }
 .event {
@@ -108,7 +127,7 @@ export default {
 .description {
     text-align: left;
     margin: 0 auto;
-    width: 350px;
+    width: 338px;
 }
 
 .image {

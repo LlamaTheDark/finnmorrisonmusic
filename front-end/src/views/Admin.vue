@@ -8,7 +8,7 @@
                 {{message}}
             </div>
         </div>
-        <div v-else>
+        <div id='page' v-else>
             <div id='admin-view'>
                 <div id='editor'>
                     <h1 class='title'>
@@ -130,7 +130,12 @@ export default {
         async handleSaveEvent() {
             if(this.eventName === '')
                 return;
-            const photo = await this.uploadPhoto();
+            var photo;
+            if(this.file != null){
+                photo = await this.uploadPhoto();
+            }else{
+                photo = '';
+            }
             const event = {
                 name: this.name,
                 date: this.date,
@@ -191,8 +196,14 @@ export default {
 <style scoped>
 
 * {
-    margin:8px
+    margin: 8px;
 }
+
+#page {
+    /* border: 4px solid green; */
+    height: 1000px;
+}
+
 
 #login {
     margin: 10px;
@@ -210,10 +221,14 @@ export default {
 #admin-view {
     display: flex;
     justify-content: space-around;
+    margin: 0 8px;
+    
 }
 
 #editor {
     width: 40%;
+    background-color: rgb(230, 230, 230); 
+
 }
 #preview {
     width: 40%;
@@ -221,6 +236,9 @@ export default {
 
 .title {
     text-decoration: underline;
+    background-color: rgb(230, 230, 230); 
+    
+    border-radius: 5px;
 }
 
 #form {

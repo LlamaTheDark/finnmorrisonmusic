@@ -95,10 +95,11 @@ router.put('/:id', admin, async (req, res) => {
         const event = await Event.findOne({
             _id: req.params.id
         });
-
+        if(req.body.photo != ''){
+            event.name = req.body.photo;
+        }
         event.name = req.body.name;
         event.date = req.body.date;
-        event.photo = req.body.photo;
         event.description = req.body.description;
         event.link = req.body.link;
         event.address = req.body.address;

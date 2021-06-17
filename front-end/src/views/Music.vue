@@ -106,6 +106,7 @@ export default {
 #body {
     background-image: url('~@/assets/background.jpg');
     font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
 }
 
 #music-list {
