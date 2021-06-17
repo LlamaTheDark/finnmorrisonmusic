@@ -1,7 +1,10 @@
 <template>
     <div id='page'>
         <h1>Events List</h1>
-        <hr class='separator'>
+        <router-link to='/' class='router-link back-button'>
+            Go Back
+        </router-link>
+        <!-- <hr class='separator'> -->
         <div v-for="event in events" :key="event._id">
             <EventView :event="event" />
             <hr class='separator'>
