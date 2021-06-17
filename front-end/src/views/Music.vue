@@ -171,7 +171,7 @@ ul {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 451px) {
     #body {
         /* background-image: url('~@/assets/background-desktop.jpg'); */
     }
@@ -188,36 +188,3 @@ ul {
 
 </style>
 
-<style>
-
-.router-link {
-    background-color: white;
-    width: 20%;
-    margin: 10px auto;
-    padding: 10px 0;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-
-    display: block;
-}
-
-.router-link:hover {
-    border: 3px solid white;
-    padding: 7px 0;
-
-    background-color: rgb(255, 255, 255, 0.5);
-    color: white;
-}
-
-@media only screen and (max-width: 375px){
-    .router-link {
-        width: 90%;
-    }
-    .router-link:hover {
-        padding: 7px 0;
-    }
-}
-
-</style>

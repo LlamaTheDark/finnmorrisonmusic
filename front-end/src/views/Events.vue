@@ -79,7 +79,7 @@ h1 {
     border-radius: 3px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
     * {
         margin: 0px;
     }

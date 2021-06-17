@@ -85,7 +85,7 @@ h1 {
     color: white;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 450px){
     .router-link {
         width: 90%;
     }
