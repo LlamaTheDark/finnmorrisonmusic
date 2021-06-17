@@ -118,7 +118,7 @@ export default {
 .address {
     text-align: left;
     width: 325px;
-    margin: 0 auto;
+    margin: 0 auto 5px auto;
 }
 .event {
     padding: 5px;
