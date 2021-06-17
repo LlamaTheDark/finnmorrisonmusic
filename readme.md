@@ -1,5 +1,7 @@
 
 # Finn Morrison Music
+See the website live at [finnmorrisonmusic.com](https://finnmorrisonmusic.com).
+
 ## Overview
 Web app developed for the assistance of Finn Morrison's music career. Provides a centralized location for people to access his music, see and get tickets for his upcoming events, as well as (*not yet available*) buy merch like stickers or t shirts or something.
 
