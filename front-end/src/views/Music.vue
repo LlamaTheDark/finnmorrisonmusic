@@ -104,7 +104,7 @@ export default {
 }
 
 #body {
-    background-image: url('~@/assets/background.jpg');
+    /* background-image: url('~@/assets/background.jpg'); */
     font-family: 'Poppins', sans-serif;
     background-attachment: fixed;
 }
@@ -168,7 +168,7 @@ ul {
 
 @media only screen and (min-width: 376px) {
     #body {
-        background-image: url('~@/assets/background-desktop.jpg');
+        /* background-image: url('~@/assets/background-desktop.jpg'); */
     }
 
     #music-list {
