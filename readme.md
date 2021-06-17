@@ -17,6 +17,8 @@ The admin page is used to edit event information and is locked behind an adminis
 
 The admin page itself consist of a dropdown menu listing all the events and 'new event'. When an event or 'new event' is selected, various input fields are populated with data regarding the event (such as *name*, *description*, *link to tickets*, etc...). This data can be changed and then saved via the 'save event' button. An event, when selected, can be deleted via the 'delete event' button. Saving an event when the event selected is 'new event' will create and store a new event in the mongo database collection 'events'.
 
+There are no buttons to access the admin page, you just have to append `/admin` to the end of the homepage url. *e.g.* `https://finnmorrisonmusic.com/admin` and you'll be able to log in from there (if you are an administrator, of course).
+
 ### Accessing the back end
 To make calls to the back-end's API endpoints, I used **axios**.
 
