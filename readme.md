@@ -82,6 +82,6 @@ const eventSchema = new mongoose.Schema({
 
 As you can see, the event schema contains an `ObjectId` / reference to a photo object, as well as the date of creation so that the events can be shown in order of recency (or the event most soon to be coming up). I may very well change the organization date to be listed in order of the date of the actual event, but for now it will function much like a blog - the events will be listed in order of creation.
 
-### Nodejs
-I used Node.js to handle module installations.
+### Nodejs and NPM
+I used NPM to handle module installations and Node.js to interpret and execute teh server files.
 
